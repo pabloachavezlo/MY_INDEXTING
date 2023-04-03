@@ -1,0 +1,43 @@
+.titulo {
+    color: var(---color11);
+}
+
+.titulo > h1 {
+    font-family: 'Nunito Sans', sans-serif;
+    text-shadow: 4px 4px 2px var(---color27);
+    margin-top: 10rem;
+    text-align: center;
+    font-size: 1.9rem;
+}
+
+.Bienvenida > h1 {
+    color: var(---color11);
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 1.2rem;
+    display: block;
+    margin-top: 6.5rem;
+    text-align: center;
+    text-shadow: 3px 3px 1px var(---color27);
+}
+
+.Bienvenida_btn > a {
+    text-decoration: none;
+    display: block;
+    margin-top: 5rem;
+    text-align: center;
+    align-items: center;
+    font-size: 1.2rem;
+    text-shadow: 3px 3px 1px var(---color27);
+    border: 2px solid var(---color11);
+    background-color: var(---color28);
+    border-radius: 1rem;
+    width: 10rem;
+    margin: 3rem 7rem;
+    cursor: pointer;
+    color: var(---color11);
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.Bienvenida_btn :hover {
+    color: var(---color21);
+}

@@ -1,0 +1,66 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+
+    /* Negros */
+    ---color1: black;
+    ---color2: rgb(31, 29, 29);
+    ---color3: rgb(53, 51, 51);
+    ---color4: rgb(17, 14, 14);
+    /* Celestes */
+    ---color5: aqua;
+    ---color6: rgb(3, 162, 162, 1);
+    ---color7: rgb(52, 255, 255);
+    ---color8: lightseagreen;
+    ---color9: rgb(20, 135, 180);
+    ---color10: rgb(65, 129, 129);
+    /* Blancos */
+    ---color11: white;
+    ---color12: aliceblue;
+    /* Verdes */
+    ---color13:  rgb(4, 43, 4);
+    ---color14:  rgb(68, 187, 68);
+    ---color15:  rgb(3, 26, 1);
+    /* Rojos */
+    ---color16: rgb(233, 9, 54);
+    ---color17: darkred;
+    ---color18: rgba(202, 32, 97, 0.986);
+    ---color19:  darkred;
+    ---color20:  rgb(97, 3, 3);
+    ---color21:  rgba(202, 32, 97, 0.986);
+    ---color22:  rgb(233, 9, 54);
+    ---color23:  rgb(255, 52, 79);
+    ---color24:  lightsalmon;
+    /* Azules */
+    ---color25:  navy;
+    ---color26:  rgb(1, 1, 24);
+    ---color27:  rgb(13, 13, 34);
+    ---color28:  rgb(1, 1, 21);
+    ---color29:  rgb(0, 47, 255);
+    /* Morados */
+    ---color30:  rgb(63, 0, 92);
+    ---color31:  rgb(37, 1, 70);
+    ---color32:  rgb(143, 0, 209, 1);
+    /* Cafés */
+    ---color33:  rgb(56, 27, 3);
+    /* Naranjas */
+    ---color34:  rgb(190, 92, 0);
+    ---color35:  rgb(201, 97, 0);
+    /* Amarillos */
+    ---color36: rgb(233, 214, 42);
+    ---color37: rgb(179, 207, 20);
+    ---color38: rgb(250, 250, 11);
+}
+
+html {
+    background: linear-gradient(to right, var(---color25), var(---color26));
+}
+
+body {
+    margin: 0;
+    display: block;
+}
