@@ -1,43 +1,55 @@
 .titulo {
-    color: var(---color11);
+    color: var(---color16);
 }
 
 .titulo > h1 {
     font-family: 'Nunito Sans', sans-serif;
-    text-shadow: 4px 4px 2px var(---color27);
+    text-shadow: 4px 4px 2px var(---color13);
     margin-top: 10rem;
     text-align: center;
     font-size: 1.9rem;
 }
 
 .Bienvenida > h1 {
-    color: var(---color11);
+    color: var(---color16);
     font-family: 'Nunito Sans', sans-serif;
     font-size: 1.2rem;
     display: block;
     margin-top: 6.5rem;
     text-align: center;
-    text-shadow: 3px 3px 1px var(---color27);
+    text-shadow: 3px 3px 1px var(---color13);
+}
+
+.Bienvenida_btn {
+    margin-top: 7rem;
 }
 
 .Bienvenida_btn > a {
     text-decoration: none;
     display: block;
-    margin-top: 5rem;
+
     text-align: center;
-    align-items: center;
+
     font-size: 1.2rem;
-    text-shadow: 3px 3px 1px var(---color27);
-    border: 2px solid var(---color11);
-    background-color: var(---color28);
+    text-shadow: 3px 3px 1px var(---color13);
+    border: 2px solid var(---color16);
+    background-color: var(---color11);
+    box-shadow: 1px 1px 6px 9px var(---color5);
     border-radius: 1rem;
-    width: 10rem;
+
+    padding: 1.5rem 2rem;
+    height: 5rem;
+
     margin: 3rem 7rem;
     cursor: pointer;
-    color: var(---color11);
+    color: var(---color16);
     font-family: 'Nunito Sans', sans-serif;
 }
 
 .Bienvenida_btn :hover {
-    color: var(---color21);
+    transition: 0.2s;
+    box-shadow: 1px 0px 3px 15px var(---color7);
+    background-color: var(---color14);
+    text-shadow: 3px 3px 1px var(---color13);
+    color: var(---color39);
 }
