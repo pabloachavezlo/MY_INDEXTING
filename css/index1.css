@@ -1,3 +1,9 @@
+.log > img {
+    display: block;
+    height: 6rem;
+    margin: 0.5rem 0.5rem;
+}
+
 .titulo {
     color: var(---color16);
 }
@@ -5,19 +11,18 @@
 .titulo > h1 {
     font-family: 'Nunito Sans', sans-serif;
     text-shadow: 4px 4px 2px var(---color13);
-    margin-top: 10rem;
+    margin-top: 5rem;
     text-align: center;
     font-size: 1.9rem;
 }
 
 .Bienvenida > h1 {
     color: var(---color16);
-    font-family: 'Nunito Sans', sans-serif;
-    font-size: 1.2rem;
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 1rem;
     display: block;
-    margin-top: 6.5rem;
     text-align: center;
-    text-shadow: 3px 3px 1px var(---color13);
+    margin: 3.5rem 2rem;
 }
 
 .Bienvenida_btn {
