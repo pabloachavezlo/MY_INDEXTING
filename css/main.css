@@ -1,29 +1,34 @@
 html {
-    background: linear-gradient(to right, var(---color11), var(---color12));
+    background: linear-gradient(to right, var(---color11), var(---color39));
 }
 
 /*Sección header*/
 
-header {
-    background-color: var(---color2);
-    justify-content: space-between;
-    display: flex;
-    min-width: 375px;
+.barra_superior {
+    background-color: var(---color39);
+    display:flex;
+    width: 100%;
 }
 
-header > a {
-    background-color: var(---color5);
-    width: 10rem;
+.barra_superior > .menu > a > img {
+    height: 3rem;
+    display: block;
+    padding: 0;
+}
+
+.barra_superior > .principal > a > img {
+    height: 3rem;
     display: block;
 }
 
-header > a > img {
-    height: 5rem;
-    align-items: center;
+.barra_superior > .perfil > a > img {
+    height: 3rem;
+    display: block;
 }
 
-header > img {
-    height: 5rem;
+.barra_superior > .ajustes > a > img {
+    height: 3rem;
+    display: block;
 }
 
 /*Sección Under*/
