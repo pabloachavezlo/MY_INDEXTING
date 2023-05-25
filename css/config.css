@@ -54,12 +54,12 @@
     ---color36: rgb(233, 214, 42);
     ---color37: rgb(179, 207, 20);
     ---color38: rgb(250, 250, 11);
-    /* Azules */
+    /* Azules II*/
     ---color39: rgb(22, 93, 245);
 }
 
 html {
-    background: linear-gradient(to right, var(---color11), var(---color12));
+    background: linear-gradient(to right, var(---color11), var(---color39));
 }
 
 body {

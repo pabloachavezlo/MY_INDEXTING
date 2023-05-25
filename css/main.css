@@ -2,6 +2,8 @@ html {
     background: linear-gradient(to right, var(---color11), var(---color12));
 }
 
+/*Sección header*/
+
 header {
     background-color: var(---color2);
     justify-content: space-between;
@@ -24,16 +26,19 @@ header > img {
     height: 5rem;
 }
 
+/*Sección Under*/
+
 .under {
     margin-top: 6rem;
 }
 
 .h1-añadido {
     color: var(---color16);
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
     font-size: 1.5rem;
     text-align: center;
     text-shadow: 4px 4px 2px var(---color13);
+    margin: 2rem 2rem;
 }
 
 .p-añadido {
@@ -47,8 +52,44 @@ header > img {
 .p-añadido > h4 {
     margin-top: 2rem;
     color: var(---color16);
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
     font-size: 1rem;
     text-align: center;
     margin: 2rem 2rem;
+}
+
+/* Sección de cajas de añadidos*/
+
+.caja1 {
+    align-items: center;
+    text-align: center;
+    margin: 2rem 0.7rem;
+}
+.caja1 > img {
+    height: 15rem;
+    width: 15rem;
+}
+
+.caja2 {
+    text-align: center;
+}
+.caja2 > img {
+    height: 15rem;
+    width: 15rem;
+}
+
+.caja3 {
+    text-align: center;
+}
+.caja3 > img {
+    height: 15rem;
+    width: 15rem;
+}
+
+.caja4 {
+    text-align: center;
+}
+.caja4 > img {
+    height: 15rem;
+    width: 15rem;
 }
