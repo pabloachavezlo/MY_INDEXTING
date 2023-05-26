@@ -76,6 +76,7 @@ html {
     align-items: center;
     text-align: center;
     margin: 2rem 0.7rem;
+    background-color: var(---color17);
 }
 .caja1 > img {
     height: 15rem;
@@ -83,7 +84,10 @@ html {
 }
 
 .caja2 {
+    align-items: center;
     text-align: center;
+    margin: 2rem 0.7rem;
+    background-color: var(---color17);
 }
 .caja2 > img {
     height: 15rem;
@@ -91,7 +95,10 @@ html {
 }
 
 .caja3 {
+    align-items: center;
     text-align: center;
+    margin: 2rem 0.7rem;
+    background-color: var(---color17);
 }
 .caja3 > img {
     height: 15rem;
@@ -99,7 +106,10 @@ html {
 }
 
 .caja4 {
+    align-items: center;
     text-align: center;
+    margin: 2rem 0.7rem;
+    background-color: var(---color17);
 }
 .caja4 > img {
     height: 15rem;
