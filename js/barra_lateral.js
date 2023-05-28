@@ -1,12 +1,10 @@
-function insertar_Barra() {
+function insertar_BarraLateral() {
     
-    let barra = `
+    let barra_lateral = `
     
     <div class="logos">
         <div class="menu">
-            <a href="./menu_page.html">
-                <img src="./img/Menu-removebg-preview.png" alt="">
-            </a>
+            <button><img src="./img/Menu-removebg-preview.png" alt=""></button>
         </div>
         <div class="principal">
             <a href="./index.html">
@@ -27,16 +25,16 @@ function insertar_Barra() {
     
     `;
 
-    return barra;
+    return barra_lateral;
 
 }
 
-function enviar_barra() {
+function enviar_barraLateral() {
     
     let enviar = document.querySelector(".barra_superior")
 
-    enviar.innerHTML = insertar_Barra;
+    enviar.innerHTML = insertar_BarraLateral;
 
 }
 
-enviar_barra();
+enviar_barraLateral();
