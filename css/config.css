@@ -90,6 +90,7 @@ body {
 }
 .names > ul > li {
     margin: 1rem 0rem;
+    display: flex;
 }
 .names > ul > li > a {
     padding: 0rem 0.7rem;
