@@ -1,25 +1,19 @@
 function insertar_BarraLateral() {
-    
-    let barra_lateral = `
-    
-    <div class="logos">
-        <div class="menu">
-            <button><img src="./img/Menu-removebg-preview.png" alt=""></button>
-        </div>
-        <div class="principal">
-            <a href="./index.html">
-                <img src="./img/Logo_en_blanco-removebg-preview.png" alt="">
-            </a>
-        </div>
-        <div class="perfil">
-            <a href="./profile.html">
-                <img src="./img/Perfil.png" alt="">
-            </a>
-        </div>
-        <div class="ajustes">
-            <a href="./settings.html">
-                <img src="./img/settings_logo.png" alt="">
-            </a>
+
+    let enviar = document.querySelector(".barralateral")
+
+    enviar.innerHTML = `
+
+    <div class="sidebar">
+        <a class="toggle-btn" onclick="toggleSidebar()"><p>☒</p></a>
+        <div class="sidebar2">
+            <img src="./img/Logo_en_blanco-removebg-preview.png">
+            <ul>
+                <li><a href="./Criptos.html">Criptomonedas</a></li>
+                <li><a href="./NFTS.html">NFTS</a></li>
+                <li><a href="#">About US</a></li>
+                <li><a href="#">Ajustes</a></li>
+            </ul>
         </div>
     </div>
     
@@ -29,12 +23,9 @@ function insertar_BarraLateral() {
 
 }
 
-function enviar_barraLateral() {
-    
-    let enviar = document.querySelector(".barra_superior")
+insertar_BarraLateral();
 
-    enviar.innerHTML = insertar_BarraLateral;
-
+function toggleSidebar() {
+    var sidebar = document.querySelector('.sidebar');
+    sidebar.classList.toggle('show');
 }
-
-enviar_barraLateral();

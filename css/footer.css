@@ -1,0 +1,18 @@
+.pie_de_pagina {
+    background-color: rgb(15, 224, 15);
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.pie_de_pagina > .Titulo > h1 {
+    margin: 0.5rem 1rem;
+}
+
+.pie_de_pagina > .autores > ul {
+    display: inline-flex;
+}
+
+.pie_de_pagina > .autores > ul > li {
+    display: block;
+    padding: 1rem;
+}

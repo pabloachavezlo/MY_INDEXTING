@@ -67,41 +67,42 @@ body {
     display: block;
 }
 
+
+
 /*Sección header*/
-
-.barra_superior > .logos{
+.header {
     background-color: var(---color22);
-    display:flex;
+    display: block;
     width: 100%;
-    height: 4rem;
-    min-width: 350px;
-    max-width: 370px;
+    text-align: center;
+}
+.header > .logo > img {
+    height: 8rem; 
+}
+.header > .names {
+    align-items: center;
+}
+.header > .names > ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    margin: 1.5rem 1rem;
+}
+.names > ul > li {
+    margin: 1rem 0rem;
+}
+.names > ul > li > a {
+    padding: 0rem 0.7rem;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 2rem;
+}
+.names > ul > li > img{
+    height: 2rem;
 }
 
-.logos > .menu > button > img {
-    height: 3rem;
-    display: block;
-    padding: 0;
-    margin-top: 5px;
-
-    outline: none;
-    
-}
-
-.logos > .principal > a > img {
-    height: 3rem;
-    display: block;
-    margin-top: 5px;
-}
-
-.logos > .perfil > a > img {
-    height: 3rem;
-    display: block;
-    margin-top: 5px;
-}
-
-.logos > .Carrito > a > img {
-    height: 3rem;
-    display: block;
-    margin-top: 5px;
+.header > .toggle-btn {
+  display: block;
+  margin: 10px;
 }

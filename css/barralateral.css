@@ -1,0 +1,86 @@
+/*.sidebar {
+    height: 100%;
+    background-color: #f1f1f1;
+    float: left;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar li {
+    margin-top: 10px;
+}
+
+.sidebar li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #000;
+}
+
+.sidebar li a:hover {
+    background-color: #ddd;
+}
+
+.show-sidebar {
+    left: 0; /* Muestra la barra lateral
+}
+
+.content {
+    margin-left: 200px; /* Ancho de la barra lateral 
+    padding: 20px;
+}*/
+
+.sidebar {
+    width: 300px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: -300px;
+    background-color: black;
+    transition: left 0.3s;
+}
+
+
+.sidebar > a > p {
+    color: white;
+    font-size: 3rem;
+    text-align: right;
+    margin: 1rem 1rem;
+}
+.sidebar > a > p:hover {
+    cursor: pointer;
+}
+.sidebar2 > img {
+    height: 7rem;
+    margin: auto;
+}
+
+
+.sidebar2 ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.sidebar2 li {
+    margin-top: 10px;
+}
+.sidebar2 li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+.sidebar2 li a:hover {
+    background-color: #ddd;
+}
+.sidebar.show {
+    left: 0;
+}
+
+.sidebar2 > ul > li > img {
+    height: 2rem;
+}
