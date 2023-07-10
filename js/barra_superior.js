@@ -6,19 +6,16 @@ function enviar_barra() {
     
         <section class="header">
             <div class="logo">
-                <img src="./img/Logo_en_blanco-removebg-preview.png" alt="">
+                <a href="main.html"><img src="./img/Logo_en_blanco-removebg-preview.png" alt=""></a>
             </div>
             <div class="names">
                 <ul>
-                    <li><a href="./Criptos.html">Criptomonedas</a></li>
-                    <li><a href="./NFTS.html">NFTS</a></li>
-                    <li><a href="#">About US</a></li>
-                    <li><img src="./img/carrito.png" alt=""></li>
-                    <li><a href="#">Ajustes</a></li>
+                    <li><a class="toggle-btn" onclick="toggleSidebar()"><img src="./img/Menu2.png" alt=""></a></li>
+                    <li><a href="./profile.html"><img src="./img/perfil3.2.png" alt=""></a></li>
+                    <li><a href="./Carrito.html"><img src="./img/carrito.png" alt=""></a></li>
+                    <li><a href="./ajustes.html"><img src="./img/settings_logo.png"></a></li>
                 </ul>
             </div>
-
-            <button class="toggle-btn" onclick="toggleSidebar()">Mostrar Contenido</button>
         </section>
     `;
 

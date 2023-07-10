@@ -43,8 +43,6 @@
     background-color: black;
     transition: left 0.3s;
 }
-
-
 .sidebar > a > p {
     color: white;
     font-size: 3rem;
@@ -53,13 +51,12 @@
 }
 .sidebar > a > p:hover {
     cursor: pointer;
+    color: #47445d;
 }
 .sidebar2 > img {
     height: 7rem;
-    margin: auto;
+    margin: 1rem 4rem;
 }
-
-
 .sidebar2 ul {
     list-style-type: none;
     margin: 0;
@@ -70,17 +67,61 @@
 }
 .sidebar2 li a {
     display: block;
-    padding: 10px;
+    padding: 1.2rem;
     text-decoration: none;
     color: white;
 }
 .sidebar2 li a:hover {
-    background-color: #ddd;
+    background-color: #47445d;
 }
 .sidebar.show {
     left: 0;
 }
-
 .sidebar2 > ul > li > img {
+    height: 2rem;
+}
+
+.contacto {
+    color: white;
+    padding: 1rem 0rem;
+}
+.contacto > h4 {
+    font-size: 1.8rem;
+    margin: 0rem 1rem;
+}
+.contacto > .contacto2 {
+    height: 100%;
+    margin: 0rem 1rem;
+}
+.contacto2 > ul > li {
+    text-decoration: none;
+    font-size: 0.5rem;
+    display: flex;
+    align-items: center;
+}
+.contacto > .contacto2 > ul > li > p {
+    font-size: 1rem;
+    font-size: 0.9rem;
+    margin-top: 1rem;
+}
+.contacto > .contacto2 > ul > li > img {
+    height: 1rem;
+}
+
+.sidebar3 {
+    margin-top: 1.7rem;
+    display: block;
+}
+.sidebar3 > ul {
+    display: flex;
+    padding: 0rem 1rem;
+}
+.sidebar3 > ul > li {
+    padding: 0rem 1.5rem;
+}
+.sidebar3 > ul > li > img {
+    height: 2rem;
+}
+.sidebar3 > ul > li > a > img {
     height: 2rem;
 }

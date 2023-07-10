@@ -11,10 +11,28 @@ function insertar_BarraLateral() {
             <ul>
                 <li><a href="./Criptos.html">Criptomonedas</a></li>
                 <li><a href="./NFTS.html">NFTS</a></li>
-                <li><a href="#">About US</a></li>
-                <li><a href="#">Ajustes</a></li>
+                <li><a href="./aboutus.html">About US</a></li>
             </ul>
         </div>
+        
+        <div class="contacto">
+            <h4>Contacto: </h4>
+            <div class="contacto2">
+                <ul>
+                    <li><p>Teléfono: 4171-1309</p></li>
+                    <li><p>Correo: albertochalop@gmail.com</p></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="sidebar3">
+            <ul>
+                <li><a href="https://www.instagram.com/_.pchavezlpz._/"><img src="./img/instagram.png"></a></li>
+                <li><a href="https://github.com/pabloachavezlo"><img src="./img/github2.png"></a></li>
+                <li><a href="https://www.instagram.com/_.pchavezlpz._/"><img src="./img/instagram.png"></a></li>
+            </ul>
+        </div>
+
     </div>
     
     `;

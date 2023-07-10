@@ -60,6 +60,7 @@
 
 html {
     background: linear-gradient(to right, var(---color11), var(---color39));
+    font-family: 'Geologica', sans-serif;
 }
 
 body {
@@ -71,26 +72,26 @@ body {
 
 /*Sección header*/
 .header {
-    background-color: var(---color22);
-    display: block;
+    background-color: var(---color12);
     width: 100%;
     text-align: center;
+    padding: 0.3rem 0rem;
 }
-.header > .logo > img {
+.header > .logo > a >  img {
     height: 8rem; 
+    margin-top: 2rem;
 }
 .header > .names {
     align-items: center;
 }
 .header > .names > ul {
-    display: flex;
     list-style: none;
-    justify-content: space-between;
-    margin: 1.5rem 1rem;
+    display: flex;
+    justify-content: space-around;
+    margin: 1.5rem 0rem;
 }
 .names > ul > li {
     margin: 1rem 0rem;
-    display: flex;
 }
 .names > ul > li > a {
     padding: 0rem 0.7rem;
@@ -99,11 +100,18 @@ body {
     text-decoration: none;
     margin-top: 2rem;
 }
-.names > ul > li > img{
-    height: 2rem;
+.names > ul > li > a > img{
+    height: 3rem;
+    
+    border-radius: 0.5rem;
+}
+.names > ul > li > a > img:hover{
+    cursor: pointer;
 }
 
-.header > .toggle-btn {
-  display: block;
-  margin: 10px;
+.header > .names > ul > li > a > .toggle-btn {
+  display: flex;
+  border-radius: 1rem;
+  padding: 0rem 1rem;
+  color: white;
 }
