@@ -19,8 +19,6 @@ function enviar_barra() {
         </section>
     `;
 
-    return barra;
-
 }
 
 enviar_barra();
