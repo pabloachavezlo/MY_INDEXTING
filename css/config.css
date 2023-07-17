@@ -56,10 +56,13 @@
     ---color38: rgb(250, 250, 11);
     /* Azules II*/
     ---color39: rgb(22, 93, 245);
+    ---color40: rgb(0, 0, 9);
+    ---color41: rgb(14, 14, 39);
+    ---color42: rgb(5, 5, 88);
 }
 
 html {
-    background: linear-gradient(to right, var(---color11), var(---color39));
+    background: linear-gradient(to right, var(---color41), var(---color42));
     font-family: 'Geologica', sans-serif;
 }
 
@@ -72,7 +75,7 @@ body {
 
 /*Sección header*/
 .header {
-    background-color: var(---color12);
+    background-color: var(---color1);
     width: 100%;
     text-align: center;
     padding: 0.3rem 0rem;

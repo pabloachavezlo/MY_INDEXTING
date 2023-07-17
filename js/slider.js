@@ -1,6 +1,6 @@
 const slider = document.querySelector('.slider');
 const sliderWrapper = document.querySelector('.slider-wrapper');
-const images = sliderWrapper.querySelectorAll('img');
+const images = sliderWrapper.querySelectorAll('div');
 const imageWidth = images[0].offsetWidth;
 let currentIndex = 0;
 
@@ -9,4 +9,4 @@ function slideNext() {
   sliderWrapper.style.transform = `translateX(-${currentIndex * imageWidth}px)`;
 }
 
-setInterval(slideNext, 10000);
+setInterval(slideNext, 12000);
