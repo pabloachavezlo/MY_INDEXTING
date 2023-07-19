@@ -1,0 +1,40 @@
+html {
+    background: linear-gradient(to right, var(---color41), var(---color42));
+}
+
+.txt_header > h2 {
+    color: white;
+    font-weight: 200;
+}
+.contenido {
+    display: block;
+    align-items: center;
+}
+.item {
+    display: block;
+    height: auto;
+    width: 21.5rem;
+
+    
+    text-align: center;
+    align-items: center;
+    margin: 1rem 1rem;
+    background-color: var(---color30);
+    color: var(---color16);
+    padding: 2rem 0.5rem;
+}
+
+.item > h1 {
+    display: block;
+    font-size: 1.8rem;
+    padding: 2rem 1rem;
+}
+
+.item > img {
+    display: block;
+    margin: 0rem 2.5rem;
+    align-self: center;
+    padding: 1rem 1rem;
+    width: 250px;
+}
+

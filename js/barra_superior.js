@@ -13,7 +13,7 @@ function enviar_barra() {
                     <li><a class="toggle-btn" onclick="toggleSidebar()"><img src="./img/Menu2.png" alt=""></a></li>
                     <li><a href="./profile.html"><img src="./img/perfil3.2.png" alt=""></a></li>
                     <li><a href="./Carrito.html"><img src="./img/carrito.png" alt=""></a></li>
-                    <li><a href="./ajustes.html"><img src="./img/settings_logo.png"></a></li>
+                    <li><a href="./buscador.html"><img src="./img/buscador.png"></a></li>
                 </ul>
             </div>
         </section>

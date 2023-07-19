@@ -11,7 +11,6 @@ function insertar_BarraLateral() {
             <ul>
                 <li><a href="./Criptos.html">Criptomonedas</a></li>
                 <li><a href="./NFTS.html">NFTS</a></li>
-                <li><a href="./aboutus.html">About US</a></li>
             </ul>
         </div>
         

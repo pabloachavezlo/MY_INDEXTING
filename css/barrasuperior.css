@@ -1,0 +1,45 @@
+/*Sección header*/
+.header {
+    background-color: var(---color1);
+    width: 100%;
+    text-align: center;
+    padding: 0.3rem 0rem;
+}
+.header > .logo > a >  img {
+    height: 8rem; 
+    margin-top: 2rem;
+}
+.header > .names {
+    align-items: center;
+}
+.header > .names > ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 1.5rem 0rem;
+}
+.names > ul > li {
+    margin: 1rem 0rem;
+}
+.names > ul > li > a {
+    padding: 0rem 0.7rem;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 2rem;
+}
+.names > ul > li > a > img{
+    height: 3rem;
+    
+    border-radius: 0.5rem;
+}
+.names > ul > li > a > img:hover{
+    cursor: pointer;
+}
+
+.header > .names > ul > li > a > .toggle-btn {
+  display: flex;
+  border-radius: 1rem;
+  padding: 0rem 1rem;
+  color: white;
+}

@@ -9,4 +9,4 @@ function slideNext() {
   sliderWrapper.style.transform = `translateX(-${currentIndex * imageWidth}px)`;
 }
 
-setInterval(slideNext, 12000);
+setInterval(slideNext, 10000);
