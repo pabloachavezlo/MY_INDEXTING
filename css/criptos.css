@@ -2,7 +2,40 @@ html {
     background: linear-gradient(to right, var(---color41), var(---color42));
 }
 
-.txt_header > h2 {
+.anuncio {
+    display: block;
+    height: auto;
+    margin: 2rem 2rem;
+    align-items: center;
+    text-align: center;
+
+    background-color: var(---color12);
+}
+
+.anuncio > h1 {
     color: white;
-    font-weight: 200;
+    padding: 1rem 0rem;
+}
+.anuncio > p {
+    color: white;
+    padding: 1rem 0rem;
+}
+
+/*Módulo tableta*/
+@media (min-width: 630px) and (max-width: 2000px) {
+    
+    .anuncio > h1 {
+        color: white;
+        padding: 1rem 0rem;
+        font-size: 3rem;
+    }
+    .anuncio > p {
+        color: white;
+        padding: 1rem 0rem;
+        font-size: 1.5rem;
+    }
+    .anuncio > img {
+        padding-top: 2rem;
+        height: 13rem;
+    }
 }

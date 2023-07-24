@@ -1,6 +1,6 @@
 /*Sección header*/
 .header {
-    background-color: var(---color1);
+    background: var(---color40);
     width: 100%;
     text-align: center;
     padding: 0.3rem 0rem;
@@ -29,17 +29,8 @@
     margin-top: 2rem;
 }
 .names > ul > li > a > img{
-    height: 3rem;
-    
-    border-radius: 0.5rem;
+    height: 4rem;
 }
 .names > ul > li > a > img:hover{
     cursor: pointer;
-}
-
-.header > .names > ul > li > a > .toggle-btn {
-  display: flex;
-  border-radius: 1rem;
-  padding: 0rem 1rem;
-  color: white;
 }

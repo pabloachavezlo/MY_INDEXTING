@@ -5,12 +5,12 @@ function insertar_BarraLateral() {
     enviar.innerHTML = `
 
     <div class="sidebar">
-        <a class="toggle-btn" onclick="toggleSidebar()"><p>☒</p></a>
+        <a class="toggle-btn" onclick="toggleSidebar()"><img src="./img/simbolo-x.png"></a>
         <div class="sidebar2">
             <img src="./img/Logo_en_blanco-removebg-preview.png">
             <ul>
-                <li><a href="./Criptos.html">Criptomonedas</a></li>
                 <li><a href="./NFTS.html">NFTS</a></li>
+                <li><a href="./Criptos.html">Criptomonedas</a></li>
             </ul>
         </div>
         
@@ -27,8 +27,8 @@ function insertar_BarraLateral() {
         <div class="sidebar3">
             <ul>
                 <li><a href="https://www.instagram.com/_.pchavezlpz._/"><img src="./img/instagram.png"></a></li>
-                <li><a href="https://github.com/pabloachavezlo"><img src="./img/github2.png"></a></li>
-                <li><a href="https://www.instagram.com/_.pchavezlpz._/"><img src="./img/instagram.png"></a></li>
+                <li><a href="https://github.com/pabloachavezlo"><img src="./img/signo-de-github.png"></a></li>
+                <li><a href="https://www.facebook.com/pabloalbert.chavezlopez/"><img src="./img/facebook.png"></a></li>
             </ul>
         </div>
 

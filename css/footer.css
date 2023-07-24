@@ -1,18 +1,139 @@
 .pie_de_pagina {
-    background-color: rgb(15, 224, 15);
-    border: 2px solid black;
-    border-radius: 5px;
+    margin: 0;
+    background: var(---color40);
+}
+.h1-añadido {
+    color: var(---color16);
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+    text-shadow: 4px 4px 2px var(---color13);
+    margin: 2rem 2rem;
+}
+.h1-añadido > h1 {
+    padding-top: 2rem;
 }
 
-.pie_de_pagina > .Titulo > h1 {
-    margin: 0.5rem 1rem;
+.p-añadido {
+    color: var(---color16);
+    font-family: 'Ubuntu', sans-serif;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 1rem;
+    text-align: center;
+    margin: 2rem 2rem;
 }
 
-.pie_de_pagina > .autores > ul {
-    display: inline-flex;
+.p-añadido > h4 {
+    margin-top: 2rem;
+    color: var(---color16);
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    margin: 2rem 2rem;
 }
 
-.pie_de_pagina > .autores > ul > li {
-    display: block;
-    padding: 1rem;
+/* Sección de cajas de añadidos*/
+
+.caja1 {
+    align-items: start;
+    text-align: start;
+    margin: 2rem 0.7rem;
+    background-color: var(---color43);
+    border-radius: 1rem;
+    border: 1px solid var(---color39);
+}
+.caja1 > h3 {
+    font-size: 2rem;
+    padding-top: 1rem;
+    padding-left: 2rem;
+    color: white;
+}
+.caja1 > p {
+    font-weight: 200;
+    font-size: 1rem;
+    font-style: oblique;
+    padding: 1rem 2rem;
+    color: white;
+}
+.caja1 > img {
+    height: 15rem;
+    width: 15rem;
+}
+
+.caja2 {
+    align-items: end;
+    text-align: end;
+    margin: 2rem 0.7rem;
+    background-color: var(---color43);
+    border-radius: 1rem;
+    border: 1px solid var(---color39);
+}
+.caja2 > h3 {
+    font-size: 2rem;
+    padding-top: 1rem;
+    padding-right: 2rem;
+    color: white;
+}
+.caja2 > p {
+    font-weight: 200;
+    font-size: 1rem;
+    font-style: oblique;
+    padding: 1rem 2rem;
+    color: white;
+}
+.caja2 > img {
+    height: 15rem;
+    width: 15rem;
+}
+
+.caja3 {
+    align-items: start;
+    text-align: start;
+    margin: 2rem 0.7rem;
+    background-color: var(---color43);
+    border-radius: 1rem;
+    border: 1px solid var(---color39);
+}
+.caja3 > h3 {
+    font-size: 2rem;
+    padding-top: 1rem;
+    padding-left: 2rem;
+    color: white;
+}
+.caja3 > p {
+    font-weight: 200;
+    font-size: 1rem;
+    font-style: oblique;
+    padding: 1rem 2rem;
+    color: white;
+}
+.caja3 > img {
+    height: 15rem;
+    width: 15rem;
+}
+
+.caja4 {
+    align-items: end;
+    text-align: end;
+    margin: 0rem 0.7rem;
+    background-color: var(---color43);
+    border-radius: 1rem;
+    border: 1px solid var(---color39);
+}
+.caja4 > h3 {
+    font-size: 2rem;
+    padding-top: 1rem;
+    padding-right: 2rem;
+    color: white;
+}
+.caja4 > p {
+    font-weight: 200;
+    font-size: 1rem;
+    font-style: oblique;
+    padding: 1rem 2rem;
+    color: white;
+}
+.caja4 > img {
+    height: 15rem;
+    width: 15rem;
 }

@@ -4,7 +4,7 @@
     position: fixed;
     top: 0;
     left: -300px;
-    background-color: black;
+    background: var(---color40);
     transition: left 1s;
     z-index: 1;
 }
@@ -14,7 +14,12 @@
     text-align: right;
     margin: 1rem 1rem;
 }
-.sidebar > a > p:hover {
+.sidebar > a > img {
+    height: 2rem;
+    margin: 2rem 0rem;
+    padding-left: 14rem;
+}
+.sidebar > a > img:hover {
     cursor: pointer;
     color: #47445d;
 }
@@ -84,9 +89,6 @@
 .sidebar3 > ul > li {
     padding: 0rem 1.5rem;
 }
-.sidebar3 > ul > li > img {
-    height: 2rem;
-}
 .sidebar3 > ul > li > a > img {
-    height: 2rem;
+    height: 2.5rem;
 }

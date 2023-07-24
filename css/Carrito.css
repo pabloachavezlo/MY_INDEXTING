@@ -2,3 +2,77 @@ html {
     background: linear-gradient(to right, var(---color41), var(---color42));
 }
 
+/* Estilos para el carrito de compras */
+.carro {
+    margin-top: 20px;
+}
+
+.carro-lista {
+    list-style-type: none;
+    padding: 0;
+}
+
+.carro-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+.carro-item img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+
+/* Resto de estilos... */
+
+.choosen {
+    color: white;
+    margin-top: 5rem;
+}
+
+.logos {
+    display: block;
+    align-items: center;
+    text-align: center;
+    background-color: purple;
+    height: auto;
+}
+
+.logos > .logo {
+    display: block;
+    cursor: pointer;
+
+    width: 15rem;
+    margin: 4rem;
+    background-color:  var(---color40);
+    margin-top: 1rem;
+    border-radius: 2rem;
+    border: 2px solid white;
+}
+
+.logo > img {
+    height: 8rem;
+    align-self: center;
+}
+
+@media (min-width: 380px) and (max-width: 400px) {
+    .logos > .logo {
+        display: block;
+        cursor: pointer;
+    
+        width: 15rem;
+        margin: 4rem;
+        background-color:  var(---color40);
+        margin-top: 1rem;
+        border-radius: 2rem;
+        border: 2px solid white;
+    }
+    
+    .logo > img {
+        height: 8rem;
+        align-self: center;
+    }
+}

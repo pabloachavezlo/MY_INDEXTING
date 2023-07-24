@@ -8,6 +8,7 @@
 
     <!-- Archivos css -->
     <link rel="stylesheet" href="./css/config.css">
+    <link rel="shortcut icon" href="./img/Logo_en_blanco-removebg-preview.png" type="image/svg+xml">
     <link rel="stylesheet" href="./css/criptos.css">
     <link rel="stylesheet" href="./css/nfts.css">
     <link rel="stylesheet" href="./css/footer.css">
@@ -25,19 +26,39 @@
     <section class="barra_superior"></section>
     <section class="barralateral"></section>
 
+    
     <div class="txt_header">
         <H2>A continuación entraremos a las opciones de propiedades NFTS que tenemos para ofrecerte:</H2>
     </div>
-    <div class="contenido"></div>
 
-    <script src="./js/barra_superior.js"></script>
-    <script src="./js/barra_lateral.js"></script>
-    <script src="./js/barra_lateral2.js"></script>
-    <script src="./js/footer.js"></script>
+    <div class="container">
+        <input type="text" id="buscador" placeholder="Buscar">
+        <div class="btn">
+            <i class="fa fa-search">
+                <img src="./img/lupa.png" alt="">
+            </i>
+        </div>
+    </div>
+
+    <div class="contenedor-central">
+        <div class="contenido"></div>
+    </div>
+
+    <footer id="footer"></footer>
 
     <!-- Sección nfts js -->
     <script src="./js/js-nfts/base_datos.js"></script>
     <script src="./js/js-nfts/elemento.js"></script>
+    <script src="./js/carrito.js"></script>
+    <script src="./js/barra_superior.js"></script>
+    <script src="./js/barra_lateral.js"></script>
+    <script src="./js/footer.js"></script>
+
+    <script>
+        showElements(base_datos);
+    </script>
+
+
 
 </body>
 </html>

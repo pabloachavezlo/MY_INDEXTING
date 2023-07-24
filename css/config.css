@@ -59,10 +59,11 @@
     ---color40: rgb(0, 0, 9);
     ---color41: rgb(14, 14, 39);
     ---color42: rgb(5, 5, 88);
+    ---color43: rgb(0, 0, 13);
 }
 
 html {
-    background: linear-gradient(to right, var(---color41), var(---color42));
+    background: linear-gradient(to right, var(---color40), var(---color42));
     font-family: 'Geologica', sans-serif;
 }
 
