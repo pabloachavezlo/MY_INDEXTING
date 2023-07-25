@@ -132,3 +132,182 @@ html {
         align-self: center;
     }
 }
+@media (min-width: 435px) and (max-width: 501px) {
+    .logos > .logo {
+        display: block;
+        cursor: pointer;
+    
+        width: 15rem;
+        margin: 4rem 7rem;
+        background-color:  var(---color40);
+        margin-top: 1rem;
+        border-radius: 2rem;
+        border: 2px solid white;
+    }
+    
+    .logo > img {
+        height: 8rem;
+        align-self: center;
+    }
+}
+@media (min-width: 502px) and (max-width: 550px) {
+    .logos > .logo {
+        display: block;
+        cursor: pointer;
+    
+        width: 15rem;
+        margin: 4rem 9rem;
+        background-color:  var(---color40);
+        margin-top: 1rem;
+        border-radius: 2rem;
+        border: 2px solid white;
+    }
+    
+    .logo > img {
+        height: 8rem;
+        align-self: center;
+    }
+}
+@media (min-width: 551px) and (max-width: 640px) {
+    .logos > .logo {
+        display: block;
+        cursor: pointer;
+    
+        width: 15rem;
+        margin: 4rem 11rem;
+        background-color:  var(---color40);
+        margin-top: 1rem;
+        border-radius: 2rem;
+        border: 2px solid white;
+    }
+    
+    .logo > img {
+        height: 8rem;
+        align-self: center;
+    }
+}
+@media (min-width: 641px) and (max-width: 740px) {
+    
+    .logos {
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+        margin: 2rem;
+    }
+
+    .logos > .logo {
+        display: block;
+        cursor: pointer;
+    
+        width: 15rem;
+        margin: 4rem 1rem;
+        background-color:  var(---color40);
+        margin-top: 1rem;
+        border-radius: 2rem;
+        border: 2px solid white;
+    }
+    
+    .logo > img {
+        height: 8rem;
+        align-self: center;
+    }
+}
+@media (min-width: 741px) and (max-width: 840px) {
+    
+    .logos {
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+        margin: 2rem 8rem;
+    }
+
+    .logos > .logo {
+        display: block;
+        cursor: pointer;
+    
+        width: 15rem;
+        margin: 4rem 1rem;
+        background-color:  var(---color40);
+        margin-top: 1rem;
+        border-radius: 2rem;
+        border: 2px solid white;
+    }
+    
+    .logo > img {
+        height: 8rem;
+        align-self: center;
+    }
+}
+@media (min-width: 841px) and (max-width: 940px) {
+    
+    .logos {
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+        margin: 2rem 11rem;
+    }
+
+    .logos > .logo {
+        display: block;
+        cursor: pointer;
+    
+        width: 15rem;
+        margin: 4rem 1rem;
+        background-color:  var(---color40);
+        margin-top: 1rem;
+        border-radius: 2rem;
+        border: 2px solid white;
+    }
+    
+    .logo > img {
+        height: 8rem;
+        align-self: center;
+    }
+}
+@media (min-width: 941px) and (max-width: 1040px) {
+    
+    .logos {
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+        margin: 2rem 14rem;
+    }
+
+    .logos > .logo {
+        display: block;
+        cursor: pointer;
+    
+        width: 15rem;
+        margin: 4rem 1rem;
+        background-color:  var(---color40);
+        margin-top: 1rem;
+        border-radius: 2rem;
+        border: 2px solid white;
+    }
+    
+    .logo > img {
+        height: 8rem;
+        align-self: center;
+    }
+}
+@media (min-width: 941px) and (max-width: 1440px) {
+    
+    .logos {
+        display: grid;
+        grid-template-columns: repeat(4, 2fr);
+        margin: 2rem 4rem;
+    }
+
+    .logos > .logo {
+        display: block;
+        cursor: pointer;
+    
+        width: 14rem;
+        margin: 4rem 1rem;
+        background-color:  var(---color40);
+        margin-top: 1rem;
+        border-radius: 2rem;
+        border: 2px solid white;
+    }
+    
+    .logo > img {
+        height: 8rem;
+        align-self: center;
+    }
+}
