@@ -1,6 +1,8 @@
 .pie_de_pagina {
     margin: 0;
     background: var(---color40);
+    align-items: center;
+    text-align: center;
 }
 .h1-añadido {
     color: var(---color16);
@@ -136,4 +138,9 @@
 .caja4 > img {
     height: 15rem;
     width: 15rem;
+}
+
+.pie_de_pagina > img {
+    height: 12rem;
+    margin-top: 2rem;
 }

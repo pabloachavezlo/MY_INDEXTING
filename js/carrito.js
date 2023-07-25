@@ -7,7 +7,13 @@ function loadCartItems() {
   
     if (carritoActual.length === 0) {
       // Carrito vacío, no hay elementos para mostrar
-      carroLista.innerHTML = "<p>El carrito está vacío.</p>";
+      carroLista.innerHTML = `
+      <div class="mensaje_no">
+        <h3>El carrito está vacío...</h3>;
+        <img src="./img/carro-vacio.png">
+        <p>Comienza a añadir elementos</p>;
+      </div>
+      `
       return;
     }
   
@@ -16,7 +22,7 @@ function loadCartItems() {
       carritoItem.classList.add("carro-item");
       carritoItem.innerHTML = `
         <img src="${elemento.img}">
-        <div>
+        <div class="txt">
           <p>${elemento.nombre}</p>
           <p>Precio: $${elemento.precio}</p>
         </div>

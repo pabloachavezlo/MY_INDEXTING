@@ -6,13 +6,38 @@ html {
 .carro {
     margin-top: 20px;
 }
+.carro > h2 {
+    font-size: 2.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+    text-align: center;
+    color: white;
+}
 
 .carro-lista {
     list-style-type: none;
     padding: 1rem 1rem;
     margin-top: 2rem;
     display: block;
-    width: 35rem;
+    width: auto;
+}
+
+.mensaje_no > h3 {
+    padding-top: 2.5rem;
+    color: white;
+    text-align: center;
+}
+.mensaje_no {
+    background-color: var(---color43);
+    text-align: center;
+}
+.mensaje_no > p {
+    padding-top: 2.5rem;
+    color: white;
+    text-align: center;
+}
+.mensaje_no > img {
+    padding-top: 2rem;
 }
 
 .carro-item {
@@ -23,31 +48,49 @@ html {
     border: 1px solid #ccc;
 
     
-    background-color: var(---color39);
+    background-color: var(---color43);
 }
 
 .carro-item img {
     width: 50px;
     height: 50px;
     object-fit: cover;
+    margin: 0rem 0.3rem;
+}
+
+.carro-item > .txt {
+    color: white;
+    margin: 0rem 0.3rem;
 }
 
 .carro-item > button {
     outline: 0;
-    border: 0;
+    border: 2px solid var(---color16);
+
+    color: var(---color16);
+    background-color: var(---color24);
     padding: 15px;
+    margin: 0rem 0.3rem;
     border-radius: 0.7rem;
     cursor: pointer;
+
+    height: 4rem;
 }
 
 /* Resto de estilos... */
 
 .choosen {
+    font-size: 2.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+    text-align: center;
     color: white;
-    margin-top: 5rem;
+    margin-top: 4rem;
 }
 
 .logos {
+    margin-top: 3rem;
+
     display: block;
     align-items: center;
     text-align: center;
